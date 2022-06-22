@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>ToDo</title>
+</head>
+<body>  
+    <div class="container">
+        <span class="error">This Task Already Exists!</span>
+        <header>
+            <div class="input-field">
+                <input type="text">
+                <span class="plus">+</span>
+            </div>
+            <div class="select-field">
+                <select>
+                    <option value="all">All</option>
+                    <option value="completed">Completed</option>
+                    <option value="uncompleted">Uncompleted</option>
+                </select>
+            </div>
+        </header>
+        <div class="tasks-box">
+        </div>
+    </div>
+    <div class="controls">
+        <span class="complete-all">Complete All</span>
+        <span class="delete-all">Delete All</span>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
